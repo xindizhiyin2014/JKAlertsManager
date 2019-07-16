@@ -1,0 +1,16 @@
+PODS:
+  - JKAlertsManager (0.1.1)
+
+DEPENDENCIES:
+  - JKAlertsManager (from `../`)
+
+EXTERNAL SOURCES:
+  JKAlertsManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKAlertsManager: 59abf62f9d6895f7f526b7f4c30193d8e0e80aef
+
+PODFILE CHECKSUM: c5cc93b1201d4ecf863197f8a15b6725f4273e84
+
+COCOAPODS: 1.7.4

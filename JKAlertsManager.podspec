@@ -7,36 +7,36 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JKAlertsManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JKAlertsManager.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/xindizhiyin2014/JKAlertsManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xindizhiyin2014' => 'jack18@same.com' }
-  s.source           = { :git => 'https://github.com/xindizhiyin2014/JKAlertsManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'JKAlertsManager/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JKAlertsManager' => ['JKAlertsManager/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'JKAlertsManager'
+    s.version          = '0.1.1'
+    s.summary          = 'this is a alert manager,it handle the alert show sort.'
+    
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = <<-DESC
+    this is a alert manager,it handle the alert show sort.it will update with the need
+    DESC
+    
+    s.homepage         = 'https://github.com/xindizhiyin2014/JKAlertsManager'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'xindizhiyin2014' => '929097264@qq.com' }
+    s.source           = { :git => 'https://github.com/xindizhiyin2014/JKAlertsManager.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    
+    s.ios.deployment_target = '8.0'
+    s.swift_version = '5'
+    s.source_files = 'JKAlertsManager/Classes/**/*'
+    
+    # s.resource_bundles = {
+    #   'JKAlertsManager' => ['JKAlertsManager/Assets/*.png']
+    # }
+    
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    # s.frameworks = 'UIKit', 'MapKit'
+    # s.dependency 'AFNetworking', '~> 2.3'
 end
