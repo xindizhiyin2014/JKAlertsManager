@@ -1,0 +1,16 @@
+PODS:
+  - JKAlertManager (0.1.0)
+
+DEPENDENCIES:
+  - JKAlertManager (from `../`)
+
+EXTERNAL SOURCES:
+  JKAlertManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKAlertManager: cfa4c40e4eaf36a6ff426bfc2ed9cdf4fb971c15
+
+PODFILE CHECKSUM: 302442aef46db6a47134a86f62fd0496060dda48
+
+COCOAPODS: 1.7.4

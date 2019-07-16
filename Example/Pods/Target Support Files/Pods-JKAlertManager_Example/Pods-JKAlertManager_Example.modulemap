@@ -1,0 +1,6 @@
+framework module Pods_JKAlertManager_Example {
+  umbrella header "Pods-JKAlertManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

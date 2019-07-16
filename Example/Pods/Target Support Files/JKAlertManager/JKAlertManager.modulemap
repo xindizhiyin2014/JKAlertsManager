@@ -1,0 +1,6 @@
+framework module JKAlertManager {
+  umbrella header "JKAlertManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
