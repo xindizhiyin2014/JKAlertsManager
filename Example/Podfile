@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKAlertsManager_Example' do
+  pod 'JKAlertsManager', :path => '../'
+
+  target 'JKAlertsManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
